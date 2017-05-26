@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeWithActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="horizontalDividerGray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lightGray</item>
+    </style>
+
+    <style name="verticalDividerGray">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/lightGray</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Caption.LightGray">
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Caption.ColorPrimaryBold">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Medium.Bold">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GrayRoundedBackgroundEdittext" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColorHint">@color/textGray</item>
+        <item name="android:background">@drawable/bg_rounded_border_grey</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonColorPrimaryRounded">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:background">@drawable/bg_rounded_primary_solid</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Small.Bold">
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HorizontalLineGrey">
+        <item name="android:background">@color/lightGray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.75dp</item>
+    </style>
+
+    <style name="TextStyleBold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleRegular">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>

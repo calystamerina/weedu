@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1AB1BB</color>
+    <color name="colorPrimaryDark">#1799A2</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="headlineText">#151515</color>
+    <color name="white">@android:color/white</color>
+    <color name="whiteTransparent">#80ffffff</color>
+    <color name="lightGray">#EFEFEF</color>
+
+    <color name="amberOrange">#E6A934</color>
+    <color name="lightGreen">#6BA836</color>
+    <color name="textBlack">#333333</color>
+    <color name="textGray">@android:color/darker_gray</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="amber600">#FFB300</color>
+    <color name="amber800">#FF8F00</color>
+    <color name="red800">#C62828</color>
+    <color name="red600">#E53935</color>
+
+
+
+    <!--Smooch color configuration-->
+
+    <color name="Smooch_accent">#1AB1BB</color>
+    <color name="Smooch_accentDark">#1799A2</color>
+    <color name="Smooch_accentLight">#1AB1BB</color>
+
+    <color name="Smooch_backgroundInput">#ffffff</color>
+
+    <color name="Smooch_btnSendHollow">#c0c0c0</color>
+    <color name="Smooch_btnSendHollowBorder">#303030</color>
+
+    <color name="Smooch_header">#989898</color>
+
+    <color name="Smooch_messageDate">@color/Smooch_header</color>
+    <color name="Smooch_messageShadow">#7f999999</color>
+
+    <color name="Smooch_remoteMessageAuthor">@color/Smooch_header</color>
+    <color name="Smooch_remoteMessageBackground">#ffffff</color>
+    <color name="Smooch_remoteMessageBorder">#d9d9d9</color>
+    <color name="Smooch_remoteMessageText">#000000</color>
+
+    <color name="Smooch_userMessageBackground">@color/Smooch_accent</color>
+    <color name="Smooch_userMessageBorder">@color/Smooch_accentDark</color>
+    <color name="Smooch_userMessageFailedBackground">@color/Smooch_accentLight</color>
+    <color name="Smooch_userMessageText">#ffffff</color>
+</resources>

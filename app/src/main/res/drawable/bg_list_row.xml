@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/row_activated" android:state_activated="true" />
+    <item android:drawable="@android:color/transparent" />
+    <item android:state_selected="true" android:drawable="@color/bg_circle_default"/>
+    <item android:state_pressed="true" android:drawable="@color/row_activated"/>
+</selector>

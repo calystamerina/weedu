@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.telkom.weedu.view.about.AboutActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:id="@+id/tv_application_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/sample_version"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:id="@+id/tv_application_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:padding="16dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Caption"
+            android:text="@string/lorem_ipsum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</LinearLayout>

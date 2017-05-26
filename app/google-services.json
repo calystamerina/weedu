@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "933384373140",
+    "firebase_url": "https://weedu-7f912.firebaseio.com",
+    "project_id": "weedu-7f912",
+    "storage_bucket": "weedu-7f912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933384373140:android:bebefe79ce53c958",
+        "android_client_info": {
+          "package_name": "com.telkom.weedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933384373140-qla2t5gc7r2lg81t0r1u2sfhaa0pfdp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telkom.weedu",
+            "certificate_hash": "48b0dccdb2ccb28c30f94100e18c43d6fd544588"
+          }
+        },
+        {
+          "client_id": "933384373140-reaeq0103qgaiq1s3k5ghr0uh3g2nq0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjKSQ4iyUUH7yXYY2ozME_nJPc2rV0pls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933384373140-reaeq0103qgaiq1s3k5ghr0uh3g2nq0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

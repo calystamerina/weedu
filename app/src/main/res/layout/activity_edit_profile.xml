@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.telkom.weedu.view.resetpassword.ResetPasswordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <EditText
+            android:id="@+id/edt_user_name"
+            style="@style/GrayRoundedBackgroundEdittext"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_fullname"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edt_phone_number"
+            style="@style/GrayRoundedBackgroundEdittext"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_phone_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edt_date_of_birth"
+            style="@style/GrayRoundedBackgroundEdittext"
+            android:layout_marginTop="16dp"
+            android:editable="false"
+            android:hint="@string/hint_date_of_birth"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            style="@style/GrayRoundedBackgroundEdittext"
+            android:layout_marginTop="16dp"
+            android:editable="false"
+            android:enabled="false"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btn_edit_profile"
+            style="@style/ButtonColorPrimaryRounded"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn_send" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/toolbar" />
+
+</LinearLayout>

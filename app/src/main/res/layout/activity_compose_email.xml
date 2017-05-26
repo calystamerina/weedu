@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@color/colorWhite"
+            android:hint="@string/label_mail_subject"
+            android:id="@+id/tv_subject"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/label_mail_recepient"
+                    android:textSize="13sp" />
+
+                <com.telkom.weedu.view.custom.ContactsCompletionView
+                    android:id="@+id/edt_recipient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:ellipsize="end"
+                    android:hint="@string/hint_default_email_address"
+                    android:inputType="textEmailAddress|textNoSuggestions|textMultiLine"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/label_mail_cc"
+                    android:textSize="13sp" />
+
+                <com.telkom.weedu.view.custom.ContactsCompletionView
+                    android:id="@+id/edt_cc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:ellipsize="end"
+                    android:inputType="textEmailAddress|textNoSuggestions|textMultiLine"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/label_mail_Bcc"
+                    android:textSize="13sp" />
+
+                <com.telkom.weedu.view.custom.ContactsCompletionView
+                    android:id="@+id/edt_bcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:ellipsize="end"
+                    android:inputType="textEmailAddress|textNoSuggestions|textMultiLine"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                style="@style/HorizontalLineGrey"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/edt_mail_body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:hint="@string/hint_mail_message"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/ln_attachments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/lightGray"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
